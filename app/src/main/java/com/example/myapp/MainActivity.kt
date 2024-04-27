@@ -174,7 +174,7 @@ class MainActivity : ComponentActivity() {
                         composable(
                             route = "maison_view?typeM={typeM}?adresse={adresse}?buanderie={buanderie}?bureau={bureau}?chambre={chambre}?cuisine={cuisine}?douche={douche}?etat={etat}?garage={garage}?jardin={jardin}?piscine={piscine}?prix={prix}?salon={salon}?superficie={superficie}?veranda={veranda}?image={image}",
                             arguments = listOf(
-                                navArgument("typeM") { nullable = true },
+                                navArgument("typjeM") { nullable = true },
                                 navArgument("adresse") { nullable = true },
                                 navArgument("buanderie") { nullable = true },
                                 navArgument("bureau") { nullable = true },
